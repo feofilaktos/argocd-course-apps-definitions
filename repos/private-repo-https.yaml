@@ -8,5 +8,5 @@ metadata:
 stringData:
   type: git
   url: https://github.com/feofilaktos/argocd-example-apps.git
-  password: 58767736Aa
-  username: feofilaktos
+  password: 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
+  username: my-token
