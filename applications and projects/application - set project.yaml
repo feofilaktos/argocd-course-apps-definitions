@@ -3,15 +3,18 @@ kind: Application
 metadata: 
   name: guestbook-demo-project
   namespace: argocd
-spec: 
-  destination: 
+spec:
+  destination:
     namespace: guestbook-demo-project
     server: "https://kubernetes.default.svc"
-  project: demo-project
+  project: default
   source: 
     path: guestbook
     repoURL: "https://github.com/feofilaktos/argocd-example-apps.git"
     targetRevision: master
+    directory:
+      recurse: true
   syncPolicy:
+    automated: {}
     syncOptions:
       - CreateNamespace=true
