@@ -10,7 +10,7 @@ spec:
   project: default
   source: 
     path: guestbook-with-sub-directories
-    repoURL: "git@github.com:feofilaktos/argocd-example-apps.git"
+    repoURL: "https://github.com/feofilaktos/argocd-example-apps.git"
     targetRevision: master
     directory:
       recurse: true
