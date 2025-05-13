@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     repoURL: 'https://istio-release.storage.googleapis.com/charts'
-    targetRevision: 1.13.4
+    targetRevision: '*'
     chart: istiod
   syncPolicy:
     automated: {}
