@@ -10,8 +10,8 @@ spec:
   project: default
   source: 
     path: guestbook
-    repoURL: "https://github.com/mabusaa/argocd-example-apps.git"
-    targetRevision: 2455bb6
+    repoURL: "git@github.com:feofilaktos/argocd-example-apps.git"
+    targetRevision: 326c11b
     directory:
       recurse: true
   syncPolicy:
