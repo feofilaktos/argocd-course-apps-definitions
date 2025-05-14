@@ -10,7 +10,7 @@ spec:
   project: default
   source: 
     path: sync-waves
-    repoURL: "https://github.com/mabusaa/argocd-example-apps.git"
+    repoURL: "git@github.com:feofilaktos/argocd-example-apps.git"
     targetRevision: master
   syncPolicy:
     syncOptions:
